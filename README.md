@@ -309,6 +309,9 @@ dotnet test --filter Category=Integration
 4. **API Layer**: REST API for external consumption
 5. **Dashboard**: Real-time web dashboard with SignalR
 
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Author
 
