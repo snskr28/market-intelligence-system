@@ -215,38 +215,6 @@ Total execution time: 00:00:51
    - `BANKNIFTY_signals.png` - Time series of BANKNIFTY signals
    - `market_dashboard.png` - Composite market dashboard
 
-## 🔧 Configuration
-
-### Application Settings (`appsettings.json`)
-
-```json
-{
-  "MarketIntelligence": {
-    "DataCollection": {
-      "MaxConcurrentRequests": 5,
-      "RequestTimeout": 30,
-      "RetryCount": 3,
-      "RetryDelay": 2
-    },
-    "Analysis": {
-      "SignalWindowSize": 100,
-      "MinimumTweetsForSignal": 10,
-      "ConfidenceThreshold": 0.6
-    },
-    "Storage": {
-      "DataPath": "./data",
-      "CompressionMethod": "Snappy",
-      "MaxFileSizeMB": 100
-    },
-    "Visualization": {
-      "MaxDataPoints": 1000,
-      "OutputPath": "./output",
-      "ImageFormat": "png"
-    }
-  }
-}
-```
-
 ## 🧪 Testing
 
 Run all tests with coverage:
